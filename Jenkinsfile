@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PATH = "C:\Users\DELL\AppData\Local\Programs\DockerDesktop\resources\bin;${env.PATH}"
+        PATH = "C:/Users/DELL/AppData/Local/Programs/DockerDesktop/resources/bin;${env.PATH}"
     }
 
     stages {
