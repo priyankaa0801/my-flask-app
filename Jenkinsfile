@@ -1,6 +1,7 @@
 pipeline{
     agent any
-    stages('Build'){
+    stages
+    stage('Build'){
         steps{
             sh 'docker build -t registration-app'
         }
